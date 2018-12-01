@@ -9,7 +9,7 @@ The PK_MUV is a WiFi module (esp8266) with NFC reader (RC522).
 The PK_MUV kit is programmed to read Tag_MUV. When the user operates the TAG_MUV on PK_MUV kit, the check-in information are sent to the MUV server:
 * Tag_MUV UID to identify the user
 * PK_MUV ID to identify the location of the kit.
-To have access to the key, please contact [XXX](anchor-contacts)
+To have access to the key, please contact [xxx](#Contacts)
 
 ## Instructions
 ### Connect the PK_MUV to the local WiFi
@@ -101,5 +101,6 @@ To be able to use a Tag with the PK_MUV kit, you have to write in the Tag the MU
 How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-tools-pc-mac.html)
 To have access to the key, please contact [XXX](#anchor-contacts).
 
-## [Contacts](anchor-contacts)
+## Contacts
+[xxx](#Contacts)
 To have access to the MUV password, please contact: XXX
