@@ -1,6 +1,6 @@
 # PK_MUV
 
-This page contains the description of the kit and the instructions to use it.
+This page contains the description of the PK_MUV kit and the instructions to use it.
 In the Repo you also find:
 * blocks diagram
 * digital files to reproduce it, Eagle file and png files
@@ -10,14 +10,15 @@ In the Repo you also find:
 The kit described in this Repo is about the electronics components and the firmware to realise the PK_MUV.
 
 ## Intro
+The goal of the kit is to enable users of the application MUV, to identify proximity to strategic locations or routes, where the PK_MUV is located. The detection of proximity uses NFC technology and the user must be in possession of a [Tag_MUV](MUV-Tags) to properly use this feature of the app.
+The PK_MUV is the device where the user can register proximity and it can be located in places important for the MUV project.
 
+IMMAGINE
 
-### Application
 The PK_MUV is a WiFi module (esp8266) with NFC reader (RC522).
 The PK_MUV kit is programmed to read [Tag_MUV](MUV-Tags). When the user operates the TAG_MUV on PK_MUV kit, the following informations are sent to the MUV server:
 * Tag_MUV UID to identify the user
 * PK_MUV ID to identify the location of the kit.<br>
-
 
 The kit includes:
 - Power slide switch: to turn on/off the kit when it runs on battery
@@ -100,8 +101,8 @@ Green-blue blink: the kit can't connect to the WiFi.<br>
 Green-aqua blink: the kit can't reach the MUV server and the "check message" is not sent.
 
 ## Power supply and Batt Led
-The PK_MUV kit runs on a rechargeable battery and its life in operation mode is about 4 days.
-The Batt Led visualises the conditions:
+The PK_MUV kit runs on a rechargeable battery, a 2000mAh Lithium Ion Polymer cell last about 4 days when the PK_MUV kit works in operational mode. The status of the battery is visualised by the Batt Led:
+
 * battery level > 50%: Batt Led blinks slow, colour green
 * 50% > battery level > 30%: Batt Led blinks slow, colour orange
 * 30% > battery level > 20%: Batt Led blinks slow, colour red.
