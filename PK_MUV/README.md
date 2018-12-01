@@ -42,7 +42,7 @@ It is also possible to enter in configuration mode manually, see the below secti
 
 
 
-### Modes and Routines
+### Modes Routines
 The operation of the PK_MUV can be described by modes and routine.
 The modes are conditions in which the kit is waiting for some actions from the users:
 * **configuration mode**: the kit is waiting to be connected to the local WiFi
@@ -63,13 +63,34 @@ If the kit has been successfully configured, it enters in operation mode.
 The Tag Led and the Config Led are off, the NFC reader is ready to accept tags and the WiFi module is off to optimise the power consumption.
 When the kit is operating and it has not been triggered by any tag, it will stay in operation mode.
 
-### Start-up routine
+#### Start-up routine
+When the kit is powered-on or reset, it will go through a sequence of test to verify that the kit can properly operate.
+It will connect to the local WiFi, it will verify the connection with the server and it will send a start-up message. If the execution of the start-up routine is successful the Config Led  blinks green light.
 
 #### Tag Routine
-When the reader get a tag, the Tag Led blinks and the light colour sequence code is:
-* green - aqua - green - aqua: the tag payload has been successfully sent to the server, see payload section in
+When the reader get a Tag_MUV, the Tag Led blinks three times, meaning:
+* the kit received a tag and the tag is recognised as Tag_MUV
+* the kit connected to the local WiFi
+* the kit sent the MUV message to the MUV server
 
-####
+If the Tag light blinks: green-read, it means the tag doesn't have the credential of the MUV project.
+
+If the Tag light blinks: green-blue, it means the tag was recognised as MUV, but the the kit couldn't connect to the WiFi.
+
+If the the light blinks: green-aqua, it means the tag was recognised as MUV, it could connect to the WiFi but it couldn't reach the MUV server.
+
+#### Check Routine
+With the check routine, you can verify the following features:
+* battery level
+* WiFi connection
+* MUV server connectivity
+
+The Batt Led will be steady for few seconds and the colour represents the battery level.
+The feedback of the routine is visualised on the Config Led.
+
+Three green blinks: the kit is operating properly and it will send the "check message".
+Green-blue blink: the kit can't connect to the WiFi.
+Green-aqua blink: the kit can't reach the MUV server and the "check message" is not sent.
 
 ## Battery
 
