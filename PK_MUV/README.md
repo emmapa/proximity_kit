@@ -15,6 +15,7 @@ To have access to the key, please contact XXX.
 ### Connect the PK_MUV to the local WiFi
 Turn on the PK_MUV (ON/OFF switch). If the kit is not connected to the WiFi, the Config Led is on/blue, the kit is ready to be connected and it create a network named MUV.
 At this point you need a smartphone/tablet or computer, join the network MUV.
+<p align="center"><img src="images/config_0.png"></p>
 
 ![MUV network](images/config_0.png)
 
