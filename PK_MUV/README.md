@@ -89,6 +89,10 @@ When the reader get a Tag_MUV, the Tag Led blinks three times, meaning:
 
 and the kit will send to the MUV the following payload:
 
+{"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}
+
+for details about the payload content, see [Uplinks](Uplinks).
+
 If the Tag light blinks: green-red, it means the tag doesn't have the credential of the MUV project.<br>
 If the Tag light blinks: green-blue, it means the tag wsas recognised as MUV, but the the kit couldn't connect to the WiFi.<br>
 If the the light blinks: green-aqua, it means the tag was recognised as MUV, it could connect to the WiFi but it couldn't reach the MUV server.
@@ -105,7 +109,24 @@ Three green blinks: the kit is operating properly and it will send the "check me
 Green-blue blink: the kit can't connect to the WiFi.<br>
 Green-aqua blink: the kit can't reach the MUV server and the "check message" is not sent.
 
+{"message":"check","id":1756474,"location":"Funen","rssi":-59,"batt”:50}
+
+for details about the payload content, see below.
+
 #### Uplinks
+Depending by the triggered routines, the PK_MUV send three different message to the MUV server that support MQTT protocol. The topic used is prox and the payloads, Jason format, are the following:
+
+{"message":"startup","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-52, "batt":50}<br>
+{"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}<br>
+{"message":"check","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-59,"batt”:50}<br>
+
+messagge: triggered routine , start-up or check <br>
+id: chipID or PK_MUV ID <br>
+uid: Tag UID <br>
+location: location of the kit, to be inserted during configuration mode <br>
+rssi: rssi <br>
+batt: battery level in % <br>
+
 
 ## Power supply and Batt Led
 The PK_MUV kit runs on a rechargeable battery, a 2000mAh Lithium Ion Polymer cell last about 4 days when the PK_MUV kit works in operational mode. The status of the battery is visualised by the Batt Led:
