@@ -36,12 +36,7 @@ In the tag "Insert address", write the location of the kit.
 Click save and the kit will be now connected, the Config Led blinks green and you are ready to use the kit.
 It is also possible to enter in configuration mode manually, see the below section "configuration mode".
 
-
-
-
-
-
-### Modes Routines
+### Modes and Routines
 The operation of the PK_MUV can be described by modes and routine.
 The modes are conditions in which the kit is waiting for some actions from the users:
 * **configuration mode**: the kit is waiting to be connected to the local WiFi
@@ -88,7 +83,18 @@ Three green blinks: the kit is operating properly and it will send the "check me
 Green-blue blink: the kit can't connect to the WiFi.<br>
 Green-aqua blink: the kit can't reach the MUV server and the "check message" is not sent.
 
-## Battery
+## Power supply and Batt Led
+The PK_MUV cab operate in portable status or stand status.
+The kit has a rechargeable battery and its life in operation mode is about 4 days.
+The Batt Led will blink if the battery level is getting too low:
+* battery level > 50%: Batt Led blinks slow, colour green
+* 50% > battery level > 30%: Batt Led blinks slow, colour orange
+* 30% > battery level > 20%: Batt Led blinks slow, colour red.
+* 20% > battery level > 10%: Batt Led blinks fast, colour red.
+* battery level > 10%: Batt Led is steady on, colour red.
+
+When the Batt Led is red, the battery is almost empty. To recharge the internal battery you can use a micro USB cable and a +5V USB charger (the ones you use with phones are good), plug the cable to the USB port on the side of the kit.
+While the kit is under charge it, it still operates normally.
 
 ## MUV Tags
 
