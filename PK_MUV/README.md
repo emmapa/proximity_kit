@@ -1,17 +1,33 @@
 # PK_MUV
 
-This page contains the description of the kit.
+This page contains the description of the kit and the instructions to use it.
+In the Repo you also find:
+* blocks diagram
+* digital files to reproduce it, Eagle file and png files
+* code
+* BOM
+
+The kit described in this Repo is about the electronics components and the firmware to realise the PK_MUV.
 
 ## Intro
 
-## Application
-The PK_MUV is a WiFi module (esp8266) with NFC reader (RC522).
-The PK_MUV kit is programmed to read [Tag_MUV](MUV-Tags). When the user operates the TAG_MUV on PK_MUV kit, the check-in information are sent to the MUV server:
-* Tag_MUV UID to identify the user
-* PK_MUV ID to identify the location of the kit.
-To have access to the key, see section [Contacs](#Contacts)
 
-## Instructions
+### Application
+The PK_MUV is a WiFi module (esp8266) with NFC reader (RC522).
+The PK_MUV kit is programmed to read [Tag_MUV](MUV-Tags). When the user operates the TAG_MUV on PK_MUV kit, the following informations are sent to the MUV server:
+* Tag_MUV UID to identify the user
+* PK_MUV ID to identify the location of the kit.<br>
+
+
+The kit includes:
+- Power slide switch: to turn on/off the kit when it runs on battery
+- Reset switch: to reset the kit while it is operating
+- Config switch: it is used to enter in configuration mode or run the check routine.
+- Tag Led: rgb Led that gives feedback when a tag is detected by the reader, also called Tag routine.
+- Config Led: rgb Led that gives feedback during the start-up and the check routines.
+- Batt Led: rgb Led that visualise the battery status.
+
+
 ### Connect the PK_MUV to the local WiFi
 Turn on the PK_MUV (ON/OFF switch). If the kit is not connected to the WiFi, the Config Led is on/blue, the kit is ready to be connected and it create a network named MUV.
 At this point you need a smartphone/tablet or computer, join the network MUV.
@@ -36,7 +52,7 @@ In the tag "Insert address", write the location of the kit.
 Click save and the kit will be now connected, the Config Led blinks green and you are ready to use the kit.
 It is also possible to enter in configuration mode manually, see the below section "configuration mode".
 
-### Modes and Routines
+### Modes and Routines/Messages
 The operation of the PK_MUV can be described by modes and routine.
 The modes are conditions in which the kit is waiting for some actions from the users:
 * **configuration mode**: the kit is waiting to be connected to the local WiFi
@@ -50,7 +66,7 @@ The
 
 #### Configuration Mode
 The kit is in configuration mode when it is not connected to the Local WiFi. In configuration mode the Config Led is steady blue.
-You can enter in configuration mode with the following steps: keep pushed the Config switch and reset the kit. Hold the Config switch until the Config Led blinks blue and you can connect the PK_MUV to the local Wifi, see previous section "Connect the PK_MUV to the local WiFi".
+You can manually enter in configuration mode with the following steps: keep pushed the Config switch and reset the kit. Hold the Config switch until the Config Led turns blue, the PK_MUV can to connected to the local Wifi, see previous [section](Connect-the-PK-MUV-to-the-local-WiFi).
 
 #### Operation Mode
 If the kit has been successfully configured, it enters in operation mode.
@@ -58,8 +74,8 @@ The Tag Led and the Config Led are off, the NFC reader is ready to accept tags a
 When the kit is operating and it has not been triggered by any tag, it will stay in operation mode.
 
 #### Start-up routine
-When the kit is powered-on or reset, it will go through a sequence of test to verify that the kit can properly operate.
-It will connect to the local WiFi, it will verify the connection with the server and it will send a start-up message. If the execution of the start-up routine is successful the Config Led  blinks green light.
+When the kit is powered-on or reseted, it runs a sequence of test to verify that the proper functionality.
+It will connect to the local WiFi, it will verify the connection with the server MUV and it will send a start-up message. If the execution of the start-up routine is successful the Config Led blinks green light.
 
 #### Tag Routine
 When the reader get a Tag_MUV, the Tag Led blinks three times, meaning:
@@ -93,6 +109,12 @@ The Batt Led visualises the conditions:
 * battery level > 10%: Batt Led is steady on, colour red.
 
 When the Batt Led is red, the battery is almost empty. To recharge the internal battery you can use a micro USB cable and a +5V USB charger (the ones you use with phones are good), plug the cable to the USB port on the side of the kit. When the Batt Led is steady green, the battery is charged. While the kit is under charge it, it still operates normally.
+
+**Note**: when you charge the battery, be sure the power switch is ON otherwise the battery will not get charged.
+
+You can run the PK_MUV kit without battery and use the USB cable to supply it. In this case it is recommended to disconnect the battery or leave the power switch in position OFF.
+**Note**: when the USB cable is plugged, the kit operated continuously.
+
 
 ## MUV Tags
 The Tags that have been successfully tested are NTAG2013 and NTAG203, they are manufactured in different shapes: key-chain, sticker, business card and bracelet.
