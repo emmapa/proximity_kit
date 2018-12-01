@@ -35,25 +35,35 @@ In the tag "Insert address", write the location of the kit.
 
 Click save and the kit will be now connected, the Config Led blinks green and you are ready to use the kit.
 
+It is also possible to enter in configuration mode manually, see the below section "configuration mode".
+
 
 
 
 
 
 ### Modes and Routines
-* configuration mode
-* sleep mode
-* start-up routine
-* tag routine
-* check routine
+The operation of the PK_MUV can be described by modes and routine.
+The modes are conditions in which the kit is waiting for some actions from the users:
+* configuration mode: the kit is waiting to be connected to the local WiFi
+* operation mode: the kit is operating and waiting to detect a Tag_MUV
+
+The routines are a set of actions that the kit executes when it is triggered:
+* start-up routine: it happens when the kit is powered-on or reset
+* tag routine: it happens when the kit detect a tag
+* check routine: it happens when the user need to check the functionality of the kit
+The
 
 #### Configuration Mode
-The kit is in configuration mode when it is not connected to the Local WiFi. In configuration mode the Config Led is blue and blinks.
+The kit is in configuration mode when it is not connected to the Local WiFi. In configuration mode the Config Led is steady blue.
 You can enter in configuration mode with the following steps: keep pushed the Config switch and reset the kit. Hold the Config switch until the Config Led blinks blue and you can connect the PK_MUV to the local Wifi, see previous section "Connect the PK_MUV to the local WiFi".
 
-#### Sleep Mode
-If the kit has been successfully configured, it enters in sleep mode.
-The Tag Led and the Config Led are off and the NFC reader is ready to accept tags. The WiFi module is off.
+#### Operation Mode
+If the kit has been successfully configured, it enters in operation mode.
+The Tag Led and the Config Led are off, the NFC reader is ready to accept tags and the WiFi module is off to optimise the power consumption.
+When the kit is operating and it has not been triggered by any tag, it will stay in operation mode.
+
+### Start-up routine
 
 #### Tag Routine
 When the reader get a tag, the Tag Led blinks and the light colour sequence code is:
