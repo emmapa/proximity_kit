@@ -82,12 +82,11 @@ With the check routine, you can verify the following features:
 * WiFi connection
 * MUV server connectivity
 
-The Batt Led will be steady for few seconds and the colour represents the battery level.
-The feedback of the routine is visualised on the Config Led.
-
-Three green blinks: the kit is operating properly and it will send the "check message".
-Green-blue blink: the kit can't connect to the WiFi.
-Green-aqua blink: the kit can't reach the MUV server and the "check message" is not sent.
+The Batt Led will be steady for few seconds and the colour represents the battery level.<br>
+The feedback of the routine is visualised on the Config Led:<br>
+Three green blinks: the kit is operating properly and it will send the "check message".<br>
+Green-blue blink: the kit can't connect to the WiFi.<br>
+Green-aqua blink: the kit can't reach the MUV server<br> and the "check message" is not sent.
 
 ## Battery
 
