@@ -45,13 +45,13 @@ It is also possible to enter in configuration mode manually, see the below secti
 ### Modes and Routines
 The operation of the PK_MUV can be described by modes and routine.
 The modes are conditions in which the kit is waiting for some actions from the users:
-* configuration mode: the kit is waiting to be connected to the local WiFi
-* operation mode: the kit is operating and waiting to detect a Tag_MUV
+* **configuration mode**: the kit is waiting to be connected to the local WiFi
+* **operation mode**: the kit is operating and waiting to detect a Tag_MUV
 
 The routines are a set of actions that the kit executes when it is triggered:
-* start-up routine: it happens when the kit is powered-on or reset
-* tag routine: it happens when the kit detect a tag
-* check routine: it happens when the user need to check the functionality of the kit
+* **start-up routine**: it happens when the kit is powered-on or reset
+* **tag routine**: it happens when the kit detect a tag
+* **check routine**: it happens when the user need to check the functionality of the kit
 The
 
 #### Configuration Mode
