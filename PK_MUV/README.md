@@ -6,10 +6,10 @@ This page contains the description of the kit.
 
 ## Application
 The PK_MUV is a WiFi module (esp8266) with NFC reader (RC522).
-The PK_MUV kit is programmed to read Tag_MUV. When the user operates the TAG_MUV on PK_MUV kit, the check-in information are sent to the server and they are:
+The PK_MUV kit is programmed to read Tag_MUV. When the user operates the TAG_MUV on PK_MUV kit, the check-in information are sent to the MUV server:
 * Tag_MUV UID to identify the user
 * PK_MUV ID to identify the location of the kit.
-To have access to the key, please contact XXX.
+To have access to the key, please contact [XXX](#anchor-contacts)
 
 ## Instructions
 ### Connect the PK_MUV to the local WiFi
@@ -72,7 +72,7 @@ If the Tag light blinks: green-blue, it means the tag was recognised as MUV, but
 If the the light blinks: green-aqua, it means the tag was recognised as MUV, it could connect to the WiFi but it couldn't reach the MUV server.
 
 #### Check Routine
-With the check routine, you can verify the following features:
+To execute the check routine, press once the Config Switch and you can verify the following features:
 * battery level
 * WiFi connection
 * MUV server connectivity
@@ -84,18 +84,22 @@ Green-blue blink: the kit can't connect to the WiFi.<br>
 Green-aqua blink: the kit can't reach the MUV server and the "check message" is not sent.
 
 ## Power supply and Batt Led
-The PK_MUV cab operate in portable status or stand status.
-The kit has a rechargeable battery and its life in operation mode is about 4 days.
-The Batt Led will blink if the battery level is getting too low:
+The PK_MUV kit runs on a rechargeable battery and its life in operation mode is about 4 days.
+The Batt Led visualises the conditions:
 * battery level > 50%: Batt Led blinks slow, colour green
 * 50% > battery level > 30%: Batt Led blinks slow, colour orange
 * 30% > battery level > 20%: Batt Led blinks slow, colour red.
 * 20% > battery level > 10%: Batt Led blinks fast, colour red.
 * battery level > 10%: Batt Led is steady on, colour red.
 
-When the Batt Led is red, the battery is almost empty. To recharge the internal battery you can use a micro USB cable and a +5V USB charger (the ones you use with phones are good), plug the cable to the USB port on the side of the kit.
-While the kit is under charge it, it still operates normally.
+When the Batt Led is red, the battery is almost empty. To recharge the internal battery you can use a micro USB cable and a +5V USB charger (the ones you use with phones are good), plug the cable to the USB port on the side of the kit. When the Batt Led is steady green, the battery is charged. While the kit is under charge it, it still operates normally.
 
 ## MUV Tags
+The Tags that have been successfully tested are NTAG2013 and NTAG203, they are manufactured in different shapes: key-chain, sticker, business card and bracelet.
+To be able to use a Tag with the PK_MUV kit, you have to write in the Tag the MUV password and transform it in a Tag_MUV. On [this page](https://www.wakdev.com/en/apps.html) you find a list of apps to write NFC Tags but you also need a device to actually write the tag; in some cases the phone can do the job but in some other cases, for example if you have an iPhone6, you have to adopt an external device. During the testing phase of the PK_MUV, the ACR122 writer has been used with the desktop version of the software NFC tools.
+<p align="center"><img src="images/acr122.jpg"></p>
+How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-tools-pc-mac.html)
+To have access to the key, please contact [XXX](#anchor-contacts).
 
-## Troubleshooting
+## [Contacts](#anchor-contacts)
+To have access to the MUV password, please contact: XXX
