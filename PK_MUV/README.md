@@ -17,14 +17,11 @@ Turn on the PK_MUV (ON/OFF switch). If the kit is not connected to the WiFi, the
 At this point you need a smartphone/tablet or computer, join the network MUV.
 <p align="center"><img src="images/config_0.png"></p>
 
-![MUV network](images/config_0.png)
-
 
 Automatically on the device you are using (smartphone/tablet/computer) the configuration window will pop-up.
-<p align="center">
-![MUV network](images/config_1.png)</p>
+<p align="center"><img src="images/config_1.png"></p>
 If the window doesn't appear, open a browser and go to the address: http://192.168.4.1/.
-<p align="center"> ![MUV network](images/config_3.png) </p>
+<p align="center"><img src="images/config_3.png"></p>
 
 
 
