@@ -23,6 +23,20 @@ Automatically on the device you are using (smartphone/tablet/computer) the confi
 If the window doesn't appear, open a browser and go to the address: http://192.168.4.1/.
 <p align="center"><img src="images/config_3.png"></p>
 
+Clicking on Info, you can see the information related to the kit and find the PK_MUV kit ID that in the window is called Chip ID.
+<p align="center"><img src="images/config_2.png"></p>
+
+Clicking on Configure WiFi, you are in the right place to connect the kit to you local WiFi.
+<p align="center"><img src="images/config_4.png"></p>
+
+Select the WiFi and type the password.
+In the tag "Insert address", write the location of the kit.
+<p align="center"><img src="images/config_5.png"></p>
+
+Click save and the kit will be now connected, the Config Led blinks green and you are ready to use the kit.
+
+
+
 
 
 
