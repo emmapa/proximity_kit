@@ -73,7 +73,7 @@ When the reader get a Tag_MUV, the Tag Led blinks three times, meaning:
 * the kit sent the MUV message to the MUV server
 
 If the Tag light blinks: green-read, it means the tag doesn't have the credential of the MUV project.<br>
-If the Tag light blinks: green-blue, it means the tag was recognised as MUV, but the the kit couldn't connect to the WiFi.
+If the Tag light blinks: green-blue, it means the tag was recognised as MUV, but the the kit couldn't connect to the WiFi.<br>
 If the the light blinks: green-aqua, it means the tag was recognised as MUV, it could connect to the WiFi but it couldn't reach the MUV server.
 
 #### Check Routine
