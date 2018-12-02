@@ -94,7 +94,7 @@ and the kit will send to the MUV the following payload:
 for details about the payload content, see [Uplinks](Uplinks).
 
 If the Tag light blinks: green-red, it means the tag doesn't have the credential of the MUV project.<br>
-If the Tag light blinks: green-blue, it means the tag wsas recognised as MUV, but the the kit couldn't connect to the WiFi.<br>
+If the Tag light blinks: green-blue, it means the tag was recognised as MUV, but the the kit couldn't connect to the WiFi.<br>
 If the the light blinks: green-aqua, it means the tag was recognised as MUV, it could connect to the WiFi but it couldn't reach the MUV server.
 
 #### Check Routine
@@ -151,6 +151,12 @@ The Tags that have been successfully tested are NTAG2013 and NTAG203, they are m
 To be able to use a Tag with the PK_MUV kit, you have to write in the Tag the MUV password and transform it in a Tag_MUV. On [this page](https://www.wakdev.com/en/apps.html) you find a list of apps to write NFC Tags but you also need a device to actually write the tag; in some cases the phone can do the job but in some other cases, for example if you have an iPhone6, you have to adopt an external device. During the testing phase of the PK_MUV, the ACR122 writer has been used with the desktop version of the software NFC tools.
 <p align="center"><img src="images/acr122.jpg"></p>
 How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-tools-pc-mac.html) To have access to the key, see section [Contacts](Contacts).
+
+## Troubleshooting
+| Problem | Solution |
+|---------| -------- |
+| Config Led is on, purple. | The FS are formatted and The WiFi settings reseted. <br> The Feather esp8266 must be reprogrammed.  <br>See [Code](code) page. |
+
 
 ## Contacts
 To have access to the MUV password, please contact: XXX

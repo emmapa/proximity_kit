@@ -24,8 +24,8 @@ Tools used:
 - to mill the traces: endmill, 0,4mm diameter
 - to cut and drill: endmill, 1/64 inch diameter
 
-The files used on the machine can be in the folder [Machinable files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Machinable%20files).<br>
-The original Eagle files are in the [Eagle files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Eagle%20files) folder.
+The files used on the machine are in the folder [Machinable files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Machinable%20files).<br>
+The original Eagle files are in the [Eagle files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Eagle%20files).
 
 #### PK_MUV pcb
 
@@ -54,3 +54,5 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | <p align="center"><img src="images/PK_MUV_sw_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_sw_bottom_view.png"></p> |
 
 #### Battery cable
+
+#### Assembly note
