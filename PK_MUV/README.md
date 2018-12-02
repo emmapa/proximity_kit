@@ -68,6 +68,8 @@ The
 The kit is in configuration mode when it is not connected to the Local WiFi. In configuration mode the Config Led is steady blue.
 You can manually enter in configuration mode with the following steps: keep pushed the Config switch and reset the kit. Hold the Config switch until the Config Led turns blue, the PK_MUV can to connected to the local Wifi, see previous [section](Connect-the-PK-MUV-to-the-local-WiFi).
 
+**note**: you can also use configuration mode to change the WiFi Network at which the PK_MUV is connected.
+
 #### Operation Mode
 If the kit has been successfully configured, it enters in operation mode.
 The Tag Led and the Config Led are off, the NFC reader is ready to accept tags and the WiFi module is off to optimise the power consumption.
@@ -155,8 +157,9 @@ How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-
 ## Troubleshooting
 | Problem | Solution |
 |---------| -------- |
-| Config Led is on, purple. | The FS are formatted and The WiFi settings reseted. <br> The Feather esp8266 must be reprogrammed.  <br>See [Code](code) page. |
-
+| Config Led is on: purple | The FS are formatted and The WiFi settings reseted. <br> The Feather esp8266 must be reprogrammed.  <br>See [Code](code) page. |
+| Config Led is on: aqua | The MUV server can't be reached. <br> Reset the Kit. <br> Check the MUV credentials saved in the code |
+| Config Led is on: blue | The kit is in Configuration mode.<br> Ready to be connected to the Local WiFi: [how](#Connect-the-PK-MUV-to-the-local-WiFi)  |
 
 ## Contacts
 To have access to the MUV password, please contact: XXX

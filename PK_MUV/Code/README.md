@@ -6,6 +6,13 @@
  <ArduinoJson.h>          //https://github.com/bblanchon/ArduinoJson
  <PubSubClient.h>     //https://github.com/knolleary/pubsubclient
 
+
+The code is written on Arduino IDE platform, for the Adafruit Feather HUZZAH esp8266 board.
+To upload the code PK_MUV_main_.ino to your kit, you need the SiLabs CP2104 Driver and the ESP8266 Board Package in Arduino IDE: [tutorial])(https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide).
+
+It sketch includes the following libraries:
+LIBRARY LIST
+
 #### First upload
 In the Arduino sketch define the variable RESET_SETTINGS 1: '#define RESET_SETTINGS 0', to format the System files in the esp8266 and reset previously saved WiFi settings.
 Upload the code.
@@ -13,12 +20,17 @@ Upload the code.
 #### Second and further uploads
 In the Arduino sketch define the variable RESET_SETTINGS 0: '#define RESET_SETTINGS 0'.
 
-Be sure that the information to connect to the MUV server are correct:
-
+Be sure that the information to access the MUV server are correct:
 char mqtt_server[41] = "<my_server>\0";<br>
 char mqtt_portStr[21] = "<my_port>\0";<br>
 char mqtt_username[21] = "<my_username>\0";<br>
 char mqtt_password[21] = "<my_password>\0";<br>
 char mqtt_topic[21] = "<my_topic>\0";<br>
 
-To get the MUV credential, please [contact](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV#Contacts).
+and the MUV code is also filled in:
+byte key[] = {};    //MUV password
+
+To get the MUV credentials and MUV password, please [contact](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV#Contacts).
+
+## To Be Fixed
+- resetSettings: doesn't delete WiFi credentials.?.
