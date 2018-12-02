@@ -20,9 +20,12 @@ BLOCK DIAGRAM
 
 The boards are made using the small milling machine Roland Modela MDX-20, each pcbs require two jobs: mill the trace and cut/drill the boards, in the folder digital files you find the png machinable files.
 Tools used:
+- one side copper plate, FR1
 - to mill the traces: endmill, 0,4mm diameter
 - to cut and drill: endmill, 1/64 inch diameter
-The files used on the machine can be in the folder [Machinable files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Machinable%20files)
+
+The files used on the machine can be in the folder [Machinable files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Machinable%20files).<br>
+The original Eagle files are in the [Eagle files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Eagle%20files) folder.
 
 #### PK_MUV pcb
 

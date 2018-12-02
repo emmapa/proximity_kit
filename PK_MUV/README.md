@@ -1,6 +1,6 @@
 # PK_MUV
 
-This page contains the description of the PK_MUV kit and the instructions to use it.
+This page contains the description of the PK_MUV kit and the instructions to use it.<br>
 In the Repo you also find:
 * blocks diagram
 * digital files to reproduce it, Eagle file and png files
@@ -131,11 +131,13 @@ batt: battery level in % <br>
 ## Power supply and Batt Led
 The PK_MUV kit runs on a rechargeable battery, a 2000mAh Lithium Ion Polymer cell last about 4 days when the PK_MUV kit works in operational mode. The status of the battery is visualised by the Batt Led:
 
-* battery level > 50%: Batt Led blinks slow, colour green
-* 50% > battery level > 30%: Batt Led blinks slow, colour orange
-* 30% > battery level > 20%: Batt Led blinks slow, colour red.
-* 20% > battery level > 10%: Batt Led blinks fast, colour red.
-* battery level > 10%: Batt Led is steady on, colour red.
+* battery level >= 96%: Batt Led is steady on, green
+* 96% > battery level >= 80%: Batt Led blinks slow, colour green
+* 80% > battery level >= 60%: Batt Led blinks, colour green/yellow
+* 60% > battery level >= 40%: Batt Led blinks, colour yellow.
+* 40% > battery level >= 20%: Batt Led blinks, colour orange.
+* 20% > battery level >= 10%: Batt Led blinks, colour red.
+* battery level < 10%: Batt Led is steady on, colour red.
 
 When the Batt Led is red, the battery is almost empty. To recharge the internal battery you can use a micro USB cable and a +5V USB charger (the ones you use with phones are good), plug the cable to the USB port on the side of the kit. When the Batt Led is steady green, the battery is charged. While the kit is under charge it, it still operates normally.
 
