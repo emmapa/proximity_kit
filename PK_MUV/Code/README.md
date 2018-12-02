@@ -1,17 +1,12 @@
- <FS.h>                   // Make sure ESP library 2.1.0 or higher is installed
- <ESP8266WiFi.h>          //https://github.com/esp8266/Arduino
- <DNSServer.h>
- <ESP8266WebServer.h>
- <WiFiManager.h>          //https://github.com/tzapu/WiFiManager
- <ArduinoJson.h>          //https://github.com/bblanchon/ArduinoJson
- <PubSubClient.h>     //https://github.com/knolleary/pubsubclient
-
-
 The code is written on Arduino IDE platform, for the Adafruit Feather HUZZAH esp8266 board.
 To upload the code PK_MUV_main_.ino to your kit, you need the SiLabs CP2104 Driver and the ESP8266 Board Package in Arduino IDE: [tutorial])(https://learn.adafruit.com/adafruit-feather-huzzah-esp8266/using-arduino-ide).
 
 It sketch includes the following libraries:
-LIBRARY LIST
+* esp8266 core: https://github.com/esp8266/Arduino
+* WiFiManager library: https://github.com/tzapu/WiFiManager
+* ArduinoJson library: https://github.com/bblanchon/ArduinoJson
+* PubSubClient library: https://github.com/knolleary/pubsubclient
+
 
 #### First upload
 In the Arduino sketch define the variable RESET_SETTINGS 1: '#define RESET_SETTINGS 0', to format the System files in the esp8266 and reset previously saved WiFi settings.
@@ -31,6 +26,9 @@ and the MUV code is also filled in:
 byte key[] = {};    //MUV password
 
 To get the MUV credentials and MUV password, please [contact](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV#Contacts).
+
+#### Debug
+You can use DEBUG variable to print on Serial Monitor debugging messages.
 
 ## To Be Fixed
 - resetSettings: doesn't delete WiFi credentials.?.
