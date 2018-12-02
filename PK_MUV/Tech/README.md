@@ -30,7 +30,7 @@ The files used on the machine can be in the folder [Machinable files](https://gi
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_bottom_view.png"></p> |
 
-
+**note**: the red traces are jumper wires placed on the top layer
 
 #### PK_MUV_L1 pcb
 
