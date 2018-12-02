@@ -22,7 +22,7 @@ The boards are made using the small milling machine Roland Modela MDX-20, each p
 Tools used:
 - to mill the traces: endmill, 0,4mm diameter
 - to cut and drill: endmill, 1/64 inch diameter
-The files used on the machine can be in the folder [Machinable files](./Machinable Files)
+The files used on the machine can be in the folder [Machinable files](https://github.com/emmapa/proximity_kit/tree/master/PK_MUV/Tech/Machinable%20files)
 
 #### PK_MUV pcb
 
