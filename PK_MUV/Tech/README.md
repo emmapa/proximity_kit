@@ -33,7 +33,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_bottom_view.png"></p> |
 |   |  |
-| All the header are THT, pitch 2.54mm. <br> JP_LEDS: 1x3 female header, THT <br> JP_BUZ: 2x2 male header<br> JP_SW: <br> Feather header 1: <br> Feather header 2: <br> JP_LED_TAG: <br> JP_NFC: <br>| All the resistors are smd 1206. <br>R1: <br> R2: <br> R3: <br> R4: <br> R5: <br> R6: <br> R7: <br>|
+| All the header are THT, pitch 2.54mm. <br> JP_LEDS: 1x3 female header, THT <br> JP_BUZ: 2x2 male header<br> JP_SW: <br> Feather header 1: <br> Feather header 2: <br> JP_LED_TAG: <br> JP_NFC: <br>| All the resistors are smd 1206. <br>R1: <br> R2: <br> R3: <br> R4: <br> R5: <br> R6: 470 Ohm <br> R7: <br>|
 
 **note**: the red traces are jumper wires placed on the top layer
 
@@ -42,18 +42,24 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | top view  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_L1_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L1_bottom_view.png"></p> |
+|   |  |
+| The header is THT, pitch 2.54mm. <br> JP1:  | Resistors and capacitors are smd 1206. <br>C1: <br> R1: <br> U1: WS2812 Led|
 
 #### PK_MUV_L2 pcb
 
 | top view  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_L2_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_view.png"></p> |
+| |  |
+| The header is THT, pitch 2.54mm. <br> JP1:   | Resistors and capacitors are smd 1206. <br>C1=C2: <br> R1: <br> U1=U2: WS2812 Led |
 
 #### PK_MUV_sw pcb
 
 | top View  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_sw_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_sw_bottom_view.png"></p> |
+| |  |
+| The header is smd, pitch 2.54mm <br> JP1: <br>| sw1 = sw2 :<br> |
 
 #### Battery cable
 
