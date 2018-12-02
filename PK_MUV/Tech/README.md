@@ -25,19 +25,28 @@ Tools used:
 
 #### PK_MUV pcb
 
-| top View  | bottom view |
+| top view  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_bottom_view.png"></p> |
 
 
+
 #### PK_MUV_L1 pcb
 
-| top View  | bottom view |
+| top view  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_L1_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L1_bottom_view.png"></p> |
 
 #### PK_MUV_L2 pcb
 
+| top view  | bottom view |
+| ------------- | ------------- |
+| <p align="center"><img src="images/PK_MUV_L2_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_view.png"></p> |
+
 #### PK_MUV_sw pcb
+
+| top View  | bottom view |
+| ------------- | ------------- |
+| <p align="center"><img src="images/PK_MUV_sw_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_sw_bottom_view.png"></p> |
 
 #### Battery cable
