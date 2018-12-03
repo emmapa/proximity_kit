@@ -44,7 +44,6 @@ Automatically on the device you are using (smartphone/tablet/computer) the confi
 |<img src="images/config_1_1.png">| <img src="images/config_1.png">|
 | ------------- | ------------- |
 
-<p align="center"><img src="images/config_1.png"></p>
 If the window doesn't appear, open a browser and go to the address: http://192.168.4.1/.
 <p align="center"><img src="images/config_3.png"></p>
 
