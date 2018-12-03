@@ -66,7 +66,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 #### Assembly note
 
 
-### BOM notes
+#### BOM notes
 Many items in the BOM can be bought only in minimum amount, when you actually are going to use one or two component. The total cost is therefore expressed as:
 * total purchase: the cost of the purchase, buying the minimum amount per items
 * cost of 1 kit: considering the cost of only the component used in the kit.
