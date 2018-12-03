@@ -40,9 +40,15 @@ At this point you need a smartphone/tablet or computer, join the network MUV.
 
 
 Automatically on the device you are using (smartphone/tablet/computer) the configuration window will pop-up.
+
+|<img src="images/config_1_1.png">| <img src="images/config_1.png">|
+| ------------- | ------------- |
+
 <p align="center"><img src="images/config_1.png"></p>
 If the window doesn't appear, open a browser and go to the address: http://192.168.4.1/.
 <p align="center"><img src="images/config_3.png"></p>
+
+
 
 Clicking on Info, you can see the information related to the kit and find the PK_MUV kit ID that in the window is called Chip ID.
 <p align="center"><img src="images/config_2.png"></p>
