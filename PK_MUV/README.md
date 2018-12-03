@@ -57,7 +57,6 @@ Clicking on Configure WiFi, you are in the right place to connect the kit to you
 
 Select the WiFi and type the password.
 In the tag "Insert address", write the location of the kit.
-<p align="center"><img src="images/config_5.png"></p>
 
 Click save and the kit will be now connected, the Config Led blinks green and you are ready to use the kit.
 It is also possible to enter in configuration mode manually, see the below section "configuration mode".
