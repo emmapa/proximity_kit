@@ -64,3 +64,11 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 #### Battery cable
 
 #### Assembly note
+
+
+### BOM notes
+Many items in the BOM can be bought only in minimum amount, when you actually are going to use one or two component. The total cost is therefore expressed as:
+* total purchase: the cost of the purchase, buying the minimum amount per items
+* cost of 1 kit: considering the cost of only the component used in the kit.
+
+for example: if you buy the "feather header 1" from Farnell, you have to buy 10 components even if you are going to use only one. In the purchase cost the item "feather header 1" is 12€ but in the single cost of one kit, the item value is 1,2€.
