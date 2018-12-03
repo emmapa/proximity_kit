@@ -33,7 +33,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_bottom_view.png"></p> |
 | <p align="center"><img src="images/PK_MUV_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_bottom_clean.jpg"></p>|
-| All the header are THT, pitch 2.54mm. <br> JP_LEDS: 1x3 female header, THT <br> JP_BUZ: holes for piezo<br> JP_SW: 2x2 male header<br> Feather header 1: 1x16 female header<br> Feather header 2: 1x16 female header<br> JP_LED_TAG: 1x4 female header<br> JP_NFC: 1x8 female header <br> | All the resistors are smd 1206. <br>R1: <br> R2: <br> R3: <br> R4: <br> R5: <br> R6: 470 Ohm <br> R7: <br>|
+| All the header are THT, pitch 2.54mm. <br> JP_LEDS: 1x3 female header, THT <br> JP_BUZ: holes for piezo<br> JP_SW: 2x2 male header<br> Feather header 1: 1x16 female header<br> Feather header 2: 1x16 female header<br> JP_LED_TAG: 1x4 female header<br> JP_NFC: 1x8 female header <br> | All the resistors are smd 1206. <br>R1: 1M Ohm<br> R2: 220k Ohm<br> R3: 0 Ohm<br> R4: 0 Ohm<br> R5: 10k Ohm<br> R6: 470 Ohm <br> R7: 0 Ohm<br>|
 
 **note**: the red traces are jumper wires placed on the top layer
 
@@ -42,7 +42,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | top view  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_L1_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L1_bottom_view.png"></p> |
-|   |  |
+| <p align="center"><img src="images/PK_MUV_L1_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_L1_bottom_clean.jpg"></p>|
 | The header is THT, pitch 2.54mm. <br> JP1:  | Resistors and capacitors are smd 1206. <br>C1: <br> R1: <br> U1: WS2812 Led|
 
 #### PK_MUV_L2 pcb
@@ -50,7 +50,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | top view  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_L2_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_view.png"></p> |
-| |  |
+| <p align="center"><img src="images/PK_MUV_L2_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_clean.jpg"></p>|
 | The header is THT, pitch 2.54mm. <br> JP1:   | Resistors and capacitors are smd 1206. <br>C1=C2: <br> R1: <br> U1=U2: WS2812 Led |
 
 #### PK_MUV_sw pcb
@@ -58,7 +58,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | top View  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_sw_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_sw_bottom_view.png"></p> |
-| |  |
+| <p align="center"><img src="images/PK_MUV_sw_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_sw_bottom_clean.jpg"></p>|
 | The header is smd, pitch 2.54mm <br> JP1: <br>| sw1 = sw2 :<br> |
 
 #### Battery cable
