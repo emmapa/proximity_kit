@@ -37,9 +37,6 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 
 **note**: the red traces are jumper wires placed on the top layer
 
-
-<p align="center"><img src="images/PK_MUV_bottom_clean.jpg"></p>
-
 #### PK_MUV_L1 pcb
 
 | top view  | bottom view |
