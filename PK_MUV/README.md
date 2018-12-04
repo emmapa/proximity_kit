@@ -74,7 +74,6 @@ The routines are a set of actions that the kit executes when it is triggered:
 * **check routine**: it happens when the user need to check the functionality of the kit
 The
 <br>
-<br>
 
 #### Configuration Mode
 Led Config : <img src="images/led_blue.png" width="20"><br>
@@ -84,12 +83,13 @@ You can manually enter in configuration mode with the following steps: keep push
 **note**: you can also use configuration mode to change the WiFi Network at which the PK_MUV is connected.
 
 #### Operation Mode
-All the LEDs are off.
+Config Led: <img src="images/led_off.png" width="20"><br>
 If the kit has been successfully configured, it enters in operation mode.
 The Tag Led and the Config Led are off, the NFC reader is ready to accept tags and the WiFi module is off to optimise the power consumption.
 When the kit is operating and it has not been triggered by any tag, it will stay in operation mode.
 
 #### Start-up routine
+Config Led: <img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><br>
 When the kit is powered-on or reseted, it runs a sequence of test to verify that the proper functionality.
 It will connect to the local WiFi, it will verify the connection with the server MUV and it will send a start-up message. If the execution of the start-up routine is successful the Config Led blinks green light and the start-up message is sent to the MUV server:
 
@@ -98,6 +98,7 @@ It will connect to the local WiFi, it will verify the connection with the server
 for details about the payload content, see [Uplinks](Uplinks).
 
 #### Tag Routine
+Tag Led : <img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><br>
 When the reader get a Tag_MUV, the Tag Led blinks three times, meaning:
 * the kit received a tag and the tag is recognised as Tag_MUV
 * the kit connected to the local WiFi
@@ -109,9 +110,10 @@ and the kit will send to the MUV the following payload:
 
 for details about the payload content, see [Uplinks](Uplinks).
 
-If the Tag light blinks: green-red, it means the tag doesn't have the credential of the MUV project.<br>
-If the Tag light blinks: green-blue, it means the tag was recognised as MUV, but the the kit couldn't connect to the WiFi.<br>
-If the the light blinks: green-aqua, it means the tag was recognised as MUV, it could connect to the WiFi but it couldn't reach the MUV server.
+The color code of the Tag Led is:<br>
+<img src="images/led_green.png" width="20"><img src="images/led_red.png" width="20"> : the tag doesn't have the credential of the MUV project.<br>
+<img src="images/led_green.png" width="20"><img src="images/led_blue.png" width="20"> : the tag was recognised as MUV, but the the kit couldn't connect to the WiFi.<br>
+<img src="images/led_green.png" width="20"><img src="images/led_aqua.png" width="20"> : the tag was recognised as MUV, it could connect to the WiFi but it couldn't reach the MUV server.
 
 #### Check Routine
 To execute the check routine, press once the Config Switch and you can verify the following features:
@@ -121,16 +123,16 @@ To execute the check routine, press once the Config Switch and you can verify th
 
 The Batt Led will be steady for few seconds and the colour represents the battery level.<br>
 The feedback of the routine is visualised on the Config Led:<br>
-Three green blinks: the kit is operating properly and it will send the "check message".<br>
-Green-blue blink: the kit can't connect to the WiFi.<br>
-Green-aqua blink: the kit can't reach the MUV server and the "check message" is not sent.
+<img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20"><img src="images/led_green.png" width="20">: the kit is operating properly and it will send the "check message".<br>
+<img src="images/led_green.png" width="20"><img src="images/led_blue.png" width="20">: the kit can't connect to the WiFi.<br>
+<img src="images/led_green.png" width="20"><img src="images/led_aqua.png" width="20">: the kit can't reach the MUV server and the "check message" is not sent.
 
-{"message":"check","id":1756474,"location":"Funen","rssi":-59,"batt”:50}
-
+The message sent to the server is:<br>
+{"message":"check","id":1756474,"location":"Funen","rssi":-59,"batt”:50}<br>
 for details about the payload content, see below.
 
 #### Uplinks
-Depending by the triggered routines, the PK_MUV send three different message to the MUV server that support MQTT protocol. The topic used is prox and the payloads, Jason format, are the following:
+Depending by the triggered routines, the PK_MUV send three different messages to the MUV server (MQTT protocol). The topic is prox and the payloads, Jason format, are the following:
 
 {"message":"startup","id":1756474,"location":"Nieuwmarkt 4, Amsterdam","rssi":-52, "batt":50}<br>
 {"id":1756474,"uid":"04:23:AB:32:EC:4C:81”}<br>
@@ -171,9 +173,9 @@ How to use the ACR122 with NFC tools: [link](https://www.wakdev.com/en/apps/nfc-
 ## Troubleshooting
 | Problem | Solution |
 |---------| -------- |
-| Config Led is on: purple | The FS are formatted and The WiFi settings reseted. <br> The Feather esp8266 must be reprogrammed.  <br>See [Code](code) page. |
-| Config Led is on: aqua | The MUV server can't be reached. <br> Reset the Kit. <br> Check the MUV credentials saved in the code |
-| Config Led is on: blue | The kit is in Configuration mode.<br> Ready to be connected to the Local WiFi: [how](#Connect-the-PK-MUV-to-the-local-WiFi)  |
+| Config Led is on: purple <br> <p align="center"> <img src="images/led_magenta.png" width="20"> </p>| The FS are formatted and The WiFi settings reseted. <br> The Feather esp8266 must be reprogrammed.  <br>See [Code](code) page. |
+| Config Led is on: aqua <br> <p align="center"> <img src="images/led_aqua.png" width="20"> </p>| The MUV server can't be reached. <br> Reset the Kit. <br> Check the MUV credentials saved in the code |
+| Config Led is on: blue <br> <p align="center"> <img src="images/led_blue.png" width="20"> </p> | The kit is in Configuration mode.<br> Ready to be connected to the Local WiFi: [how](#Connect-the-PK-MUV-to-the-local-WiFi)  |
 
 ## Contacts
 To have access to the MUV password, please contact: XXX
