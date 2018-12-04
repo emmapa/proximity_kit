@@ -16,7 +16,7 @@ The PK_MUV kit is a portable device made of the following parts and features:
 
 The PK_MUV uses two off-the-shelf boards, the Adafruit Feather HUZZAH esp8266 and the NFC reader RC522, and four boards made in the fablab, the PK_MUV pcb, the PK_MUV_L1 pcb, the PK_MUV_L2 pcb and the PK_MUV_sw pcb.
 
-BLOCK DIAGRAM
+<p align="center"><img src="images/block_diagram.png"></p>
 
 The boards are made using the small milling machine Roland Modela MDX-20, each pcbs require two jobs: mill the trace and cut/drill the boards, in the folder digital files you find the png machinable files.
 Tools used:
