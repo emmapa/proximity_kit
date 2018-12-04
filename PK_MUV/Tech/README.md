@@ -51,7 +51,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_L2_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_view.png"></p> |
 | <p align="center"><img src="images/PK_MUV_L2_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_clean.jpg"></p>|
-| The header is THT, pitch 2.54mm. <br> JP1: 1x03 male header 90°   | Resistors and capacitors are smd 1206. <br>C1=C2: 0.1uF <br> R1: 0 Ohm <br> U1=U2: WS2812 Led |
+| The header is THT, pitch 2.54mm. <br> JP1: 1x03 male header 90°   | Resistors and capacitors are smd 1206. <br>C1=C2: 0.1uF <br> U1=U2: WS2812B Led |
 
 #### PK_MUV_sw pcb
 
