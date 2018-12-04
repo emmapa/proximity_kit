@@ -60,6 +60,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | <p align="center"><img src="images/PK_MUV_sw_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_sw_bottom_view.png"></p> |
 | <p align="center"><img src="images/PK_MUV_sw_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_sw_bottom_clean.jpg"></p>|
 | sw1 = sw2: Tactile Switch THT | The header is smd, pitch 2.54mm <br> JP1: 2x2 male header<br> |
+|<p align="center"><img src="images/PK_MUV_sw_top_stuffed.jpg"></p>| <p align="center"><img src="images/PK_MUV_sw_botton_stuffed.jpg"></p>
 
 #### Battery cable
 
