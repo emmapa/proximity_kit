@@ -73,7 +73,8 @@ The routines are a set of actions that the kit executes when it is triggered:
 * **tag routine**: it happens when the kit detect a tag
 * **check routine**: it happens when the user need to check the functionality of the kit
 The
-
+<br>
+<br>
 
 #### Configuration Mode
 Led Config : <img src="images/led_blue.png" width="20"><br>
@@ -83,6 +84,7 @@ You can manually enter in configuration mode with the following steps: keep push
 **note**: you can also use configuration mode to change the WiFi Network at which the PK_MUV is connected.
 
 #### Operation Mode
+All the LEDs are off.
 If the kit has been successfully configured, it enters in operation mode.
 The Tag Led and the Config Led are off, the NFC reader is ready to accept tags and the WiFi module is off to optimise the power consumption.
 When the kit is operating and it has not been triggered by any tag, it will stay in operation mode.
