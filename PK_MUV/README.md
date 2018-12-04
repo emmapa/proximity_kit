@@ -76,7 +76,7 @@ The
 
 
 #### Configuration Mode
-Led Config : <img src="images/led_blue.png" ><br>
+Led Config : <img src="images/led_blue.png" width="50"><br>
 The kit is in configuration mode when it is not connected to the Local WiFi. In configuration mode the Config Led is steady blue.
 You can manually enter in configuration mode with the following steps: keep pushed the Config switch and reset the kit. Hold the Config switch until the Config Led turns blue, the PK_MUV can to connected to the local Wifi, see previous [section](Connect-the-PK-MUV-to-the-local-WiFi).
 
