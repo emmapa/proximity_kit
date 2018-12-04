@@ -74,8 +74,9 @@ The routines are a set of actions that the kit executes when it is triggered:
 * **check routine**: it happens when the user need to check the functionality of the kit
 The
 
+
 #### Configuration Mode
-<p align="center"><img src="images/led_blue.png"></p>
+Led Config : <img src="images/led_blue.png" width="20"><br>
 The kit is in configuration mode when it is not connected to the Local WiFi. In configuration mode the Config Led is steady blue.
 You can manually enter in configuration mode with the following steps: keep pushed the Config switch and reset the kit. Hold the Config switch until the Config Led turns blue, the PK_MUV can to connected to the local Wifi, see previous [section](Connect-the-PK-MUV-to-the-local-WiFi).
 
