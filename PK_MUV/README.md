@@ -78,7 +78,7 @@ The
 <br>
 
 #### Configuration Mode
-Led Config : <img src="images/led_blue.png" width="20"><br>
+Config Led : <img src="images/led_blue.png" width="20"><br>
 The kit is in configuration mode when it is not connected to the Local WiFi. In configuration mode the Config Led is steady blue.
 You can manually enter in configuration mode with the following steps: keep pushed the Config switch and reset the kit. Hold the Config switch until the Config Led turns blue, the PK_MUV can to connected to the local Wifi, see previous [section](Connect-the-PK-MUV-to-the-local-WiFi).
 
@@ -148,23 +148,27 @@ rssi: rssi <br>
 batt: battery level in % <br>
 
 
-## Power supply and Batt Led
+## Power supply and Battery Led
 The PK_MUV kit runs on a rechargeable battery, a 2000mAh Lithium Ion Polymer cell last about 4 days when the PK_MUV kit works in operational mode. The status of the battery is visualised by the Batt Led:
 
 * battery level >= 96%: Batt Led is steady on, green
-* 96% > battery level >= 80%: Batt Led blinks slow, colour green
-* 80% > battery level >= 60%: Batt Led blinks, colour green/yellow
-* 60% > battery level >= 40%: Batt Led blinks, colour yellow.
-* 40% > battery level >= 20%: Batt Led blinks, colour orange.
 * 20% > battery level >= 10%: Batt Led blinks, colour red.
 * battery level < 10%: Batt Led is steady on, colour red.
 
-When the Batt Led is red, the battery is almost empty. To recharge the internal battery you can use a micro USB cable and a +5V USB charger (the ones you use with phones are good), plug the cable to the USB port on the side of the kit. When the Batt Led is steady green, the battery is charged. While the kit is under charge it, it still operates normally.
+
+When the Batt Led is red, the battery is almost empty. To recharge the internal battery you can use a micro USB cable and a +5V USB charger (the ones you use with phones are good), plug the cable to the USB port on the side of the kit. When the Batt Led is steady green, the battery is charged. While the kit is under charge, it still operates normally.
 
 **Note**: when you charge the battery, be sure the power switch is ON otherwise the battery will not get charged.
 
-You can run the PK_MUV kit without battery and use the USB cable to supply it. In this case it is recommended to disconnect the battery or leave the power switch in position OFF.
+You can run the PK_MUV kit without battery and use the USB cable to supply it. In this case it is recommended to disconnect the battery or leave the power switch in position OFF. In this setting, the Batt Led is steady off.<br>
 **Note**: when the USB cable is plugged, the kit operated continuously.
+
+Colour scale used during Check routine:
+* 100% > battery level >= 80%: Batt Led colour green
+* 80% > battery level >= 60%: Batt Led green/yellow
+* 60% > battery level >= 40%: Batt Led yellow.
+* 40% > battery level >= 20%: Batt Led orange.
+* 20% > battery level >= 0: Batt Led colour red.
 
 ## MUV Tags
 The Tags that have been successfully tested are NTAG2013 and NTAG203, they are manufactured in different shapes: key-chain, sticker, business card and bracelet.
