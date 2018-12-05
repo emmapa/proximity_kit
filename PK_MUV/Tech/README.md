@@ -45,6 +45,7 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | <p align="center"><img src="images/PK_MUV_L1_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L1_bottom_view.png"></p> |
 | The header is THT, pitch 2.54mm. <br> JP1: 1x04 male header 90° | Capacitors is smd 1206. <br>C1: 0.1uF <br> U1: WS2812B Led|
 | <p align="center"><img src="images/PK_MUV_L1_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_L1_bottom_clean.jpg"></p>|
+| <p align="center"><img src="images/PK_MUV_L1_top_stuffed.jpg"></p>  | <p align="center"><img src="images/PK_MUV_L1_bottom_stuffed.jpg"></p>|
 
 
 #### PK_MUV_L2 pcb
@@ -52,8 +53,10 @@ The original Eagle files are in the [Eagle files](https://github.com/emmapa/prox
 | top view  | bottom view |
 | ------------- | ------------- |
 | <p align="center"><img src="images/PK_MUV_L2_top_view.png"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_view.png"></p> |
-| <p align="center"><img src="images/PK_MUV_L2_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_clean.jpg"></p>|
 | The header is THT, pitch 2.54mm. <br> JP1: 1x03 male header 90°   | Resistors and capacitors are smd 1206. <br>C1=C2: 0.1uF <br> U1=U2: WS2812B Led |
+| <p align="center"><img src="images/PK_MUV_L2_top_clean.jpg"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_clean.jpg"></p>|
+| <p align="center"><img src="images/PK_MUV_L2_top_stuffed.jpg"></p>  | <p align="center"><img src="images/PK_MUV_L2_bottom_stuffed.jpg"></p>|
+
 
 #### PK_MUV_sw pcb
 
