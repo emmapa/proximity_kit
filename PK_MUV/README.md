@@ -1,5 +1,7 @@
 # PK_MUV
 
+<p align="center"><img src="images/Top_page.jpg"></p>
+
 This page contains the description of the PK_MUV kit and the instructions to use it.<br>
 In the Repo you also find:
 * blocks diagram
