@@ -28,7 +28,7 @@ The kit includes:
 - Config Led: rgb Led that gives feedback during the start-up and the check routines.
 - Batt Led: rgb Led that visualise the battery status.
 
-<p align="center"><img src="images/front_text.jpg" width="200"></p>
+<p align="center"><img src="images/front_text.jpg" width="300"></p>
 
 
 ### Connect the PK_MUV to the local WiFi
