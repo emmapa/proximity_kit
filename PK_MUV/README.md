@@ -1,4 +1,4 @@
-<center> # PK_MUV </center>
+# PK_MUV
 
 <p align="center"><img src="images/Top_page.jpg" width="300"></p>
 
@@ -15,8 +15,6 @@ The kit described in this Repo is about the electronics components and the firmw
 The goal of the kit is to enable users of the application MUV, to identify proximity to strategic locations or routes, where the PK_MUV is located. The detection of proximity uses NFC technology and the user must be in possession of a [Tag_MUV](MUV-Tags) to properly use this feature of the app.
 The PK_MUV is the device where the user can register proximity and it can be located in places important for the MUV project, for example: schools, offices, shops, parks, public services.
 
-
-
 The PK_MUV is a WiFi module (esp8266) with NFC reader (RC522).
 The PK_MUV kit is programmed to read [Tag_MUV](MUV-Tags). When the user operates the TAG_MUV on PK_MUV kit, the following informations are sent to the MUV server:
 * Tag_MUV UID to identify the user
@@ -29,6 +27,8 @@ The kit includes:
 - Tag Led: rgb Led that gives feedback when a tag is detected by the reader, also called Tag routine.
 - Config Led: rgb Led that gives feedback during the start-up and the check routines.
 - Batt Led: rgb Led that visualise the battery status.
+
+<p align="center"><img src="images/front_text.jpg" width="100"></p>
 
 
 ### Connect the PK_MUV to the local WiFi
@@ -62,7 +62,7 @@ In the tag "Insert address", write the location of the kit.
 <p align="center"><img src="images/config_5.png"></p>
 
 Click save and the kit will be now connected, the Config Led blinks green and you are ready to use the kit.
-It is also possible to enter in configuration mode manually, see the below section "configuration mode".
+It is also possible to enter in configuration mode manually, see the below section [configuration mode](Configuration-Mode).
 
 ### Modes and Routines/Messages
 The operation of the PK_MUV can be described by modes and routine.
