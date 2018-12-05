@@ -1,6 +1,6 @@
 # PK_MUV
 
-<p align="center"><img src="images/Top_page.jpg"></p>
+<p align="center"><img src="images/Top_page.jpg" width="300"></p>
 
 This page contains the description of the PK_MUV kit and the instructions to use it.<br>
 In the Repo you also find:
@@ -15,7 +15,7 @@ The kit described in this Repo is about the electronics components and the firmw
 The goal of the kit is to enable users of the application MUV, to identify proximity to strategic locations or routes, where the PK_MUV is located. The detection of proximity uses NFC technology and the user must be in possession of a [Tag_MUV](MUV-Tags) to properly use this feature of the app.
 The PK_MUV is the device where the user can register proximity and it can be located in places important for the MUV project, for example: schools, offices, shops, parks, public services.
 
-IMMAGINE
+
 
 The PK_MUV is a WiFi module (esp8266) with NFC reader (RC522).
 The PK_MUV kit is programmed to read [Tag_MUV](MUV-Tags). When the user operates the TAG_MUV on PK_MUV kit, the following informations are sent to the MUV server:
